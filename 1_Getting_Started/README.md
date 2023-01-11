@@ -303,7 +303,7 @@ Note that the binary is located in a directory `debug`. When we are actually rea
 
 ```sh
 $ cargo build --release
-   Compiling hello_cargo v0.1.0 (/home/joe/learning_rust/1_Getting_Started/hello_cargo)
+   Compiling hello_cargo v0.1.0 (learning_rust/1_Getting_Started/hello_cargo)
     Finished release [optimized] target(s) in 0.33s
 ```
 
