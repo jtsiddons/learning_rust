@@ -162,8 +162,6 @@ fn main() println!("Hello, world!");
 
 This results in an error. Adding an `=` between `main()` and `println!` also errors. 
 
-![Errors with no curly braces.](./hello_world/no_curly_braces_error.png)
-
 I can write a single line function if I include the curly braces:
 
 ```rs
