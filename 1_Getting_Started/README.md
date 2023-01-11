@@ -44,8 +44,6 @@ rustup doc
 
 This opens up the documentation as a website.
 
-![Output of `rustup doc`. Opens the locally stored documentation in a web-browser.](./rustup_doc.png)
-
 ### Section 1.2: Hello, World!
 
 Every programming tutorial should start with a "hello world" script. This is no different. 
