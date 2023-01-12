@@ -23,7 +23,7 @@ rustc 1.66.1 (90743e729 2023-01-10)
 I can upgrade rust using the `rustup` component:
 
 ```sh
-rustup update
+$ rustup update
 ```
 
 #### Uninstalling rust
@@ -31,7 +31,7 @@ rustup update
 Rust and all its components can be removed from the system using the `rustup` utility.
 
 ```sh
-rustup self uninstall
+$ rustup self uninstall
 ```
 
 #### Documentation
@@ -39,7 +39,7 @@ rustup self uninstall
 I can view rust documentation which is installed along with rust as part of the `rustup` component.
 
 ```sh
-rustup doc
+$ rustup doc
 ```
 
 This opens up the documentation as a website.
