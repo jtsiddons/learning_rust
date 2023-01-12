@@ -564,7 +564,7 @@ thread 'main' panicked at 'Please type a number!: ParseIntError { kind: InvalidD
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 ```
 
-Let's handle that if proper error handling.
+Let's handle that with proper error handling.
 
 ```rs
 let guess: u32 = match guess.trim().parse() {
