@@ -4,15 +4,7 @@ The concepts discussed in this chapter are not unique to rust, they are common a
 all, programming languages. We'll discuss these standard concepts in the context of rust, how they 
 are applied for example.
 
-## Outline
-
-* [3.1 - Variables](#3.1)
-* [3.2 - Data Types](#3.2)
-* [3.3 - Functions](#3.3)
-* [3.4 - Comments](#3.4)
-* [3.5 - Control Flow](#3.5)
-
-## [3.1 - Variables and Mutability]{#3.1}
+## 3.1 - Variables and Mutability
 
 ### Mutability
 
@@ -160,7 +152,7 @@ For more information about this error, try `rustc --explain E0308`.
 error: could not compile `variables` due to previous error
 ```
 
-## [3.2 - Data Types]{#3.2}
+## 3.2 - Data Types
 
 Rust is a *statically* typed language. This means that it must know the type of all variables at 
 compile time. The compiler can often infer the type we want based on the value and its use. However,
@@ -381,7 +373,7 @@ fn main() {
 
 If we attempt to access an index that is out of range we get a panic/runtime error.
 
-## [3.3 - Functions]{#3.3}
+## 3.3 - Functions
 
 We use `snake_case` as convention for function names in rust. We declare functions by with `fn`, the
 function name and a set of parentheses `()`. We add curly braces `{}` to tell the compiler where the
@@ -581,13 +573,13 @@ error: could not compile `functions` due to previous error
 The compiler treats `x + 1;` as a statement that has no return value. The function is expected to
 return an `i32`, so we get a `mismatched types`  error.
 
-## [3.4 - Comments]{#3.4}
+## 3.4 - Comments
 
 We can comment code, or add comment lines with `//`. This can be done at the beginning of a line,
 removing that line from the program, or it can be done within the line, removing anything to its 
 right. Useful for adding notes or clarifications.
 
-## [3.5 - Control Flow]{#3.5}
+## 3.5 - Control Flow
 
 The most common ways of controlling the flow of code are `if` statements and loops.
 
